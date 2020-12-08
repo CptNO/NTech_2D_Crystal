@@ -1,0 +1,18 @@
+﻿Build started 14.5.2016. 17:28:35.
+     1>Project "C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\NTech_3D_Crystal_Core\NTech_3D_Crystal_Core.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\NTech_2D_Crystal\Window.cpp
+         Window.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\Release\NTech_3D_Crystal_Core.lib" SDL2.lib SDL2main.lib SDL2_Image.lib SDL2_ttf.lib SDL2_mixer.lib freeglut.lib glew32.lib /NOLOGO /LTCG Release\Window.obj
+     1>SDL2_Image.lib(SDL2_image.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>freeglut.lib(freeglut.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+         NTech_3D_Crystal_Core.vcxproj -> C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\Release\NTech_3D_Crystal_Core.lib
+     1>Done Building Project "C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\NTech_3D_Crystal_Core\NTech_3D_Crystal_Core.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.50

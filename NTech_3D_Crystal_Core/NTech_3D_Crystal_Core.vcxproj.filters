@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{56cbfc6a-0eb1-44e3-aa1e-fb7147b7150f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\graphic">
+      <UniqueIdentifier>{f479f9c4-24d4-418f-9129-4327a525988e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\input">
+      <UniqueIdentifier>{ef5b5dce-eba8-48c6-af92-e7acee585dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\math">
+      <UniqueIdentifier>{cc83ea21-9507-47a0-a1fd-9f211883cf76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\utils">
+      <UniqueIdentifier>{0e879378-d37e-43fa-b297-a4aefdd35eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\graphic\buffers">
+      <UniqueIdentifier>{6e29f526-029e-4ca9-812b-20d939bc1968}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NTCrystal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="mat4.cpp">
+      <Filter>Engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>Engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec4.cpp">
+      <Filter>Engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="NTErrors.cpp">
+      <Filter>Engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="common\String.cpp">
+      <Filter>Engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Engine\graphic\buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Engine\graphic\buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple2DRenderer.cpp">
+      <Filter>Engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchRenderer2D.cpp">
+      <Filter>Engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticSprite.cpp">
+      <Filter>Engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\graphic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NTCrystal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="mat4.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="maths.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="tvec2.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Types.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="NTErrors.h">
+      <Filter>Engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Common.h">
+      <Filter>Engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="common\String.h">
+      <Filter>Engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pch.h">
+      <Filter>Engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="fileUtils.h">
+      <Filter>Engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Engine\graphic\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Engine\graphic\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable2D.h">
+      <Filter>Engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer2D.h">
+      <Filter>Engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Simple2DRenderer.h">
+      <Filter>Engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="maths_func.h">
+      <Filter>Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="BatchRenderer2D.h">
+      <Filter>Engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticSprite.h">
+      <Filter>Engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Timmer.h">
+      <Filter>Engine\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

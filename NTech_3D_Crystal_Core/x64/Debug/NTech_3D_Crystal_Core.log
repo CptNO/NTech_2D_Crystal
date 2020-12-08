@@ -1,0 +1,22 @@
+﻿Build started 15.5.2016. 2:31:51.
+     1>Project "C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\NTech_3D_Crystal_Core\NTech_3D_Crystal_Core.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\x64\Debug\NTech_3D_Crystal_Core.lib" SDL2.lib SDL2main.lib SDL2_Image.lib SDL2_ttf.lib SDL2_mixer.lib freeglut.lib glfw3.lib glew32.lib /NOLOGO /MACHINE:X64 x64\Debug\NTCrystal.obj
+         x64\Debug\NTErrors.obj
+         x64\Debug\Window.obj
+     1>SDL2_Image.lib(SDL2_image.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_Image.lib(SDL2_image.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freeglut.lib(freeglut.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>freeglut.lib(freeglut.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         NTech_3D_Crystal_Core.vcxproj -> C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\x64\Debug\NTech_3D_Crystal_Core.lib
+     1>Done Building Project "C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\NTech_3D_Crystal_Core\NTech_3D_Crystal_Core.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

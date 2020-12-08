@@ -1,0 +1,33 @@
+﻿Build started 8.5.2016. 14:44:45.
+     1>Project "C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\SpacialPartitioning\BallGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ball.cpp BallController.cpp BallRenderer.cpp Grid.cpp Main.cpp MainGame.cpp
+         MainGame.cpp
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\ntech_2d_crystal\gltexture.h(6): warning C4099: 'NTCrystal::GLTexture' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\ntech_2d_crystal\spritefont.h(36) : see declaration of 'NTCrystal::GLTexture'
+         Main.cpp
+         Grid.cpp
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\spacialpartitioning\grid.cpp(10): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\spacialpartitioning\grid.cpp(11): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\spacialpartitioning\grid.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\spacialpartitioning\grid.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+         BallRenderer.cpp
+         BallController.cpp
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\spacialpartitioning\ballcontroller.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\spacialpartitioning\ballcontroller.cpp(101): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\spacialpartitioning\ballcontroller.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+         Ball.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\Debug\BallGame.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_Image.lib SDL2_ttf.lib SDL2_mixer.lib freeglut.lib glew32.lib NTech_2D_Crystal.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\Debug\BallGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\Debug\BallGame.lib" /MACHINE:X86 Debug\Ball.obj
+         Debug\BallController.obj
+         Debug\BallRenderer.obj
+         Debug\Grid.obj
+         Debug\Main.obj
+         Debug\MainGame.obj
+         BallGame.vcxproj -> C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\Debug\BallGame.exe
+     1>Done Building Project "C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\SpacialPartitioning\BallGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.88

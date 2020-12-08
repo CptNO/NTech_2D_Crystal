@@ -1,0 +1,43 @@
+﻿Build started 5.6.2016. 13:32:48.
+     1>Project "C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\NTech_3D_Crystal_Core\NTech_3D_Crystal_Core.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Window.cpp
+         Window.cpp
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\ntech_3d_crystal_core\window.cpp(58): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\ntech_3d_crystal_core\window.cpp(124): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ivan\desktop\razvoj\ntech_2d_crystal_enging\ntech_3d_crystal_core\window.cpp(125): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\Debug\NTech_3D_Crystal_Core.lib" SDL2.lib SDL2main.lib SDL2_Image.lib SDL2_ttf.lib SDL2_mixer.lib freeglut.lib glfw3.lib glew32.lib /NOLOGO Debug\AABB.obj
+         Debug\BatchRenderer2D.obj
+         Debug\String.obj
+         Debug\IndexBuffer.obj
+         Debug\mat4.obj
+         Debug\NTCrystal.obj
+         Debug\NTErrors.obj
+         Debug\Quaternion.obj
+         Debug\Simple2DRenderer.obj
+         Debug\Shader.obj
+         Debug\Sprite.obj
+         Debug\StaticSprite.obj
+         Debug\vec2.obj
+         Debug\vec3.obj
+         Debug\vec4.obj
+         Debug\Buffer.obj
+         Debug\VertexArray.obj
+         Debug\Window.obj
+     1>SDL2_Image.lib(SDL2_image.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_Image.lib(SDL2_image.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freeglut.lib(freeglut.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>freeglut.lib(freeglut.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         NTech_3D_Crystal_Core.vcxproj -> C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\Debug\NTech_3D_Crystal_Core.lib
+     1>Done Building Project "C:\Users\Ivan\Desktop\Razvoj\NTech_2D_Crystal_Enging\NTech_3D_Crystal_Core\NTech_3D_Crystal_Core.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63
